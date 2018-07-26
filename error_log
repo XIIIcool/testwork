@@ -1,0 +1,39 @@
+[22-Jul-2018 12:24:11 UTC] PHP Notice:  Undefined index: method in /home/yspmxuon/public_html/egorov/ajax.php on line 9
+[22-Jul-2018 12:24:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'yspmxuon_root'@'localhost' for table 'users' in /home/yspmxuon/public_html/egorov/db.php:37
+Stack trace:
+#0 /home/yspmxuon/public_html/egorov/db.php(37): PDOStatement->execute(Array)
+#1 /home/yspmxuon/public_html/egorov/db.php(70): myPDOStatement->execute(Array)
+#2 /home/yspmxuon/public_html/egorov/ajax.php(47): Users->createUser('xiii@bk.ru2312', '123123123', '1952', 2)
+#3 {main}
+  thrown in /home/yspmxuon/public_html/egorov/db.php on line 37
+[22-Jul-2018 15:27:29 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(' in /home/yspmxuon/public_html/egorov/ajax.php on line 29
+[22-Jul-2018 15:28:07 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(' in /home/yspmxuon/public_html/egorov/ajax.php on line 29
+[22-Jul-2018 15:29:16 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(' in /home/yspmxuon/public_html/egorov/ajax.php on line 36
+[22-Jul-2018 15:29:34 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'yspmxuon_root'@'localhost' for table 'users'' in /home/yspmxuon/public_html/egorov/db.php:37
+Stack trace:
+#0 /home/yspmxuon/public_html/egorov/db.php(37): PDOStatement->execute(Array)
+#1 /home/yspmxuon/public_html/egorov/db.php(70): myPDOStatement->execute(Array)
+#2 /home/yspmxuon/public_html/egorov/ajax.php(47): Users->createUser('xiii@bk.ru2312', '123123123', '1952', 2)
+#3 {main}
+  thrown in /home/yspmxuon/public_html/egorov/db.php on line 37
+[22-Jul-2018 15:33:47 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'yspmxuon_root'@'localhost' for table 'users'' in /home/yspmxuon/public_html/egorov/db.php:37
+Stack trace:
+#0 /home/yspmxuon/public_html/egorov/db.php(37): PDOStatement->execute(Array)
+#1 /home/yspmxuon/public_html/egorov/db.php(70): myPDOStatement->execute(Array)
+#2 /home/yspmxuon/public_html/egorov/ajax.php(47): Users->createUser('xiii@bk.ru2312', '123123123', '1952', 2)
+#3 {main}
+  thrown in /home/yspmxuon/public_html/egorov/db.php on line 37
+[22-Jul-2018 15:39:14 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'yspmxuon_root'@'localhost' for table 'users'' in /home/yspmxuon/public_html/egorov/db.php:37
+Stack trace:
+#0 /home/yspmxuon/public_html/egorov/db.php(37): PDOStatement->execute(Array)
+#1 /home/yspmxuon/public_html/egorov/db.php(70): myPDOStatement->execute(Array)
+#2 /home/yspmxuon/public_html/egorov/ajax.php(47): Users->createUser('xiii@bk.ru2312', '123123123', '1952', 2)
+#3 {main}
+  thrown in /home/yspmxuon/public_html/egorov/db.php on line 37
+[22-Jul-2018 15:45:00 Europe/Moscow] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yspmxuon_egorov.catuser' doesn't exist' in /home/yspmxuon/public_html/egorov/db.php:37
+Stack trace:
+#0 /home/yspmxuon/public_html/egorov/db.php(37): PDOStatement->execute(Array)
+#1 /home/yspmxuon/public_html/egorov/db.php(90): myPDOStatement->execute(Array)
+#2 /home/yspmxuon/public_html/egorov/ajax.php(52): Users->insertUserCategories(Array)
+#3 {main}
+  thrown in /home/yspmxuon/public_html/egorov/db.php on line 37
